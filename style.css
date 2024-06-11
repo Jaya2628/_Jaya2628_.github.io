@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Another decorative font */
+    margin: 0;
+    padding: 0;
+    background-color: WhiteSmoke; /* Light background */
+    color: DimGray; /* Dark text color */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: DimGray; /* Dark text color */
+}
+
+/* Header Styles */
+header {
+    background-color: DarkSlateGray; /* Dark slate gray */
+    color: White; /* White */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: White; /* White */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: OrangeRed; /* Orange Red */
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 40px;
+    background-color: White; /* White */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Cinzel', serif; /* Decorative font */
+    font-size: 2.5rem; /* Larger heading size */
+    color: DimGray; /* Dark text color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Cinzel', serif; /* Decorative font */
+    font-size: 2rem; /* Larger heading size */
+    color: DimGray; /* Dark text color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem; /* Larger paragraph size */
+    line-height: 1.5; /* Improved readability */
+    color: Gray; /* Medium-dark text color */
+}
+
+/* Footer Section */
+footer {
+    background-color: DarkSlateGray; /* Dark slate gray */
+    color: White; /* White */
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links a {
+    color: White; /* White */
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: OrangeRed; /* Orange Red */
+}
+
+/* Additional Styles */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-image {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Circle shape */
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
